@@ -224,6 +224,7 @@ h4 {
   padding: 15px !important;
 }
 
+.nav-item dropdown-item,
 .nav-item dropdown-item:hover {
   color: #16181b !important;
 }
