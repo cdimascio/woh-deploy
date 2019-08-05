@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "woh/deploy",
-  "version": "1.0.2",
+  "version": "1.0.3",
 
   "description": "Minimal and friendly theme for go/deploy",
   "short_name": "woh_deploy",
