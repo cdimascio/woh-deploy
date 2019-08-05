@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "woh/deploy",
-  "version": "1.0.3",
+  "version": "1.0.5",
 
   "description": "Minimal and friendly theme for go/deploy",
   "short_name": "woh_deploy",
@@ -20,5 +20,8 @@
       "16": "icons/icon16.png",
       "32": "icons/icon32.png"
     }
+  },
+  "browser_action": {
+    "default_icon": "icons/icon16.png"
   }
 }
