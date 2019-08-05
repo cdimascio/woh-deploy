@@ -3,7 +3,7 @@
   "name": "woh/deploy",
   "version": "1.0.5",
 
-  "description": "Minimal and friendly theme for go/deploy",
+  "description": "A friendly dark theme for go/deploy",
   "short_name": "woh_deploy",
   "permissions": ["activeTab", "declarativeContent", "tabs"],
 
