@@ -229,6 +229,12 @@ h4 {
   color: #16181b !important;
 }
 
+.dropdown-item.active, .dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #212529;
+}
+
 small {
   color: #fff !important;
   font-size: 0.9rem !important;
