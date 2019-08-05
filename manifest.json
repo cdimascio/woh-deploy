@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "woh/deploy",
+  "version": "1.0.0",
+
+  "description": "Minimal and friendly theme for go/deploy",
+  "short_name": "woh_deploy",
+  "permissions": ["activeTab", "declarativeContent", "tabs"],
+
+  "content_scripts": [
+    {
+      "matches": ["https://applied-piper.platform.d.tripadvisor.com/*"],
+      "css": ["override.css"],
+      "js": ["override.js"]
+    }
+  ],
+
+  "page_action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png"
+    }
+  }
+}
