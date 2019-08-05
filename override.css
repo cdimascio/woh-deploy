@@ -261,3 +261,7 @@ small .badge.badge-pill.badge-secondary {
 nav.bg-dark {
   background-color: #131c26 !important;
 }
+
+#footer {
+  background-color: #151e27;
+}
