@@ -84,6 +84,10 @@ thead {
 }
 
 .table thead th {
+  font-size: 1rem !important;
+  opacity: 0.8 !important;
+  padding-left: .7rem !important;
+  text-transform: uppercase !important;
   vertical-align: bottom !important;
   border-bottom: 2px solid #000 !important;
 }
