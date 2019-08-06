@@ -6,8 +6,14 @@ main {
     Ubuntu, 'Helvetica Neue', sans-serif !important;
 }
 
+a[data-placement] {
+  margin: 0 !important;
+  padding: 0 !important;  
+}
+
+
 #main {
-  padding: 20px 60px 60px 60px!important;
+  padding: 20px 60px 60px 60px !important;
 }
 
 .progress {
@@ -28,18 +34,26 @@ main {
 }
 
 img.mr-3 {
-  margin-top: -.3rem !important;
+  margin-top: -0.3rem !important;
 }
 
 .navbar-brand {
-  color: transparent !important;  
+  color: transparent !important;
   color: #d9235c !important;
 }
-
 
 span[data-toggle] {
   color: transparent !important;
 }
+
+/* span[data-toggle] .text-info::after {
+  content: 'RUNNING' !important;
+  color: #00af87 !important;
+  font: 14px system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Ubuntu, 'Helvetica Neue', sans-serif !important;
+  font-weight: 900 !important;
+  margin-left: 0.5rem !important;
+} */
 
 span[data-toggle] .text-success::after {
   content: 'SUCCESS' !important;
@@ -59,7 +73,6 @@ span[data-toggle] .text-danger::after {
   margin-left: 0.5rem !important;
 }
 
-
 span > i {
   font-size: 16px !important;
 }
@@ -70,6 +83,12 @@ td > a {
 }
 
 a > i {
+  color: #00af87 !important;
+  margin-top: -3px !important;
+  font-size: 15px !important;
+}
+
+a > i.fa-external-link-alt {
   color: #00af87 !important;
   margin-top: -3px !important;
   font-size: 25px !important;
@@ -86,7 +105,7 @@ thead {
 .table thead th {
   font-size: 1rem !important;
   opacity: 0.8 !important;
-  padding-left: .7rem !important;
+  padding-left: 0.7rem !important;
   text-transform: uppercase !important;
   vertical-align: bottom !important;
   border-bottom: 2px solid #000 !important;
@@ -114,7 +133,17 @@ tr:hover a {
   background-color: #d9235c !important;
 }
 
+
+.text-info.align-top {
+  margin: -1.4rem;
+}
+
+i {
+  margin-right: 0 !important;
+}
+
 td:first-child {
+  min-width: 150px !important;
   font-weight: 900 !important;
   text-transform: uppercase !important;
 }
@@ -123,7 +152,6 @@ td:nth-child(2) {
   color: #00af87 !important;
   opacity: 0.8 !important;
 }
-
 
 td:nth-child(5) {
   text-transform: capitalize !important;
@@ -251,7 +279,6 @@ h4 {
   text-decoration: none !important;
   color: #fff !important;
   background-color: #d9235c !important;
-
 }
 
 .dropdown-item:active {
@@ -283,6 +310,14 @@ small .badge.badge-pill.badge-secondary {
   color: #000 !important;
 }
 
+small .badge.badge-pill.badge-info {
+  position: absolute !important;
+  right: 15px !important;
+  background-color: #ffc006 !important;
+  color: #000 !important;
+}
+
+
 .badge-pill {
   margin-top: 0.3em !important;
   padding-right: 0.6em !important;
@@ -296,6 +331,25 @@ nav.bg-dark {
 
 #footer {
   background-color: #151e27 !important;
+}
+
+.toast.toast-info {
+  color: #000;
+  background-color: #1eaf87;
+}
+
+.alert-warning {
+  background-color: #ffc006;
+  color: #000
+}
+
+.btn-secondary {
+  background-color: #17a2b8;
+}
+
+.toast.toast-error {
+  color: #000;
+  background-color: #1eaf87;
 }
 
 /* ap-standard-form {
