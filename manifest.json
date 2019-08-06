@@ -20,8 +20,5 @@
       "16": "icons/icon16.png",
       "32": "icons/icon32.png"
     }
-  },
-  "browser_action": {
-    "default_icon": "icons/icon16.png"
   }
 }
