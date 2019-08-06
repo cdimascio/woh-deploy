@@ -30,16 +30,12 @@ main {
 img.mr-3 {
   margin-top: -.3rem !important;
 }
+
 .navbar-brand {
   color: transparent !important;  
+  color: #d9235c !important;
 }
 
-.navbar-brand::after {
-  color: #d9235c !important;
-  font-weight: 500 !important;
-  margin-left: -12rem !important;
-  content: 'Self Service Deploy (woh)'
-}
 
 span[data-toggle] {
   color: transparent !important;
